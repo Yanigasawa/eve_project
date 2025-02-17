@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.13.4",
+    "commonjs": "^0.0.1",
+    "pg": "^8.13.3",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.11"
+  }
+}
