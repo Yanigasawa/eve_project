@@ -18,6 +18,8 @@ const OrderBody = () => {
             <th className="table_header_row_minimum">Min</th>
             <th className="table_header_row_duration">Duration</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td className="table_content_row_price"> price </td>
             <td className="table_content_row_location">locationId</td>
@@ -25,7 +27,7 @@ const OrderBody = () => {
             <td className="table_content_row_minimum"> minVolume </td>
             <td className="table_content_row_duration">duration days</td>
           </tr>
-        </thead>
+        </tbody>
       </table>
     </div>
   );

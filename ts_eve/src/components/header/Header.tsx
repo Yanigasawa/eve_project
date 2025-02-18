@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useState } from "react";
 
@@ -11,9 +10,9 @@ const HeaderUserLoginContainer = () => {
 
   return (
     <div>
-    <input />
+      <input />
 
-    < input />
+      <input />
     </div>
   );
 };
@@ -27,28 +26,27 @@ const HeaderButtonContainer: React.FC = () => {
 
   return (
     <div>
-    {
-      isButtonExpanded?(
+      {isButtonExpanded ? (
         <>
-    <button className= "expand login" onClick = {() => toggleButton()}>
-      { "> "}
-      </button>
-      < HeaderUserLoginContainer />
-      </>
+          <button className="expand login" onClick={() => toggleButton()}>
+            {"> "}
+          </button>
+          <HeaderUserLoginContainer />
+        </>
       ) : (
-  <button className= "expand login" onClick = {() => toggleButton()}>
-    Would you like to login ?
-      </button>
+        <button className="expand login" onClick={() => toggleButton()}>
+          Would you like to login ?
+        </button>
       )}
-</div>
+    </div>
   );
 };
 
 const Header = () => {
   return (
-    <div className= "header" >
-    <HeaderTitle />
-    < HeaderButtonContainer />
+    <div className="header">
+      <HeaderTitle />
+      <HeaderButtonContainer />
     </div>
   );
 };
