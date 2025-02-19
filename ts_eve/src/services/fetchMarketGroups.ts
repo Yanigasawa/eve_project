@@ -5,7 +5,7 @@ export const fetchMarketGroups = async (): Promise<MarketGroup[]> => {
     const response = await fetch("api/marketgroups");
     return await response.json();
   } catch (error) {
-    console.error("Error fetching people: ", error);
+    console.error("Error fetching marketgroups: ", error);
     return [];
   }
 };

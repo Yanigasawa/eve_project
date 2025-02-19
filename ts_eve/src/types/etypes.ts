@@ -16,7 +16,7 @@ export type EveType = {
 };
 
 export type MarketGroup = {
-  children: MarketGroup[] | [];
+  children?: MarketGroup[];
   description: string;
   hastypes: number;
   iconid: number;
